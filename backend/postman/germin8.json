@@ -1,0 +1,113 @@
+{
+    "item": [
+        {
+            "id": "ff168ecd-19d7-4ea3-bcbf-0a05c5d6f007",
+            "name": "Store",
+            "description": {
+                "content": "Stroe Deatils",
+                "type": "text/plain"
+            },
+            "item": [
+                {
+                    "id": "96f5d57f-c8eb-44dc-9e9f-d3919f3a2468",
+                    "name": "Get City",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "city"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "GET",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                },
+                {
+                    "id": "bde6556b-0442-452b-9822-9693ecef448a",
+                    "name": "Get All City Data",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "city",
+                                "Bengaluru"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "GET",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                },
+                {
+                    "id": "57d178d0-09ba-4a81-92d2-824438f3d8a8",
+                    "name": "Get Full Address",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "city"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                }
+            ],
+            "event": []
+        }
+    ],
+    "event": [],
+    "variable": [
+        {
+            "type": "any",
+            "value": "http://localhost:4400/api/v1",
+            "key": "URL"
+        }
+    ],
+    "info": {
+        "_postman_id": "2cdea373-5501-4eea-b9ac-ac9aab5848a2",
+        "name": "germin8 Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    }
+}
